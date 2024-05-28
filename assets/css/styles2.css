@@ -1,0 +1,124 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+}
+
+h1{
+    margin: 0;
+}
+
+nav{
+    background-color: rgba(77,197,176,1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: all 0.5s ease-out;
+    padding: 0 1rem;
+}
+nav a:hover{
+    background-color: rgba(254,196,0,1);
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+
+.contenido-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.section-alumno{
+    background-color: rgba(77,197,176,0.5);
+    width: max-content;
+    padding: 1rem;
+    border: 1px solid rgba(77,197,176,1);
+    border-radius: 10px;
+}
+
+
+
+.section-apoderados{
+    background-color: rgba(252,246,172,0.5);
+    width: max-content;
+    padding: 1rem;
+    border: 1px solid rgba(252,246,172,1);
+    border-radius: 10px;
+
+}
+
+.section-alumno input{
+    border: 1px solid rgba(77,197,176,1);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.section-apoderados input{
+    border: 1px solid rgba(252,246,172,1);
+    border-radius: 10px;
+}
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-form{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    text-align: center;
+}
+
+button{
+    padding: 1rem;
+    background-color: rgba(0, 42, 255, 0.6);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 2rem auto;
+    
+    transition: all 0.5s ease-out;
+}
+button:hover{
+    background-color: blue;
+}
+
+
+
+
+@media (min-width: 576px){
+    
+
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2px;
+    }
+
+    .contenido-form{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}

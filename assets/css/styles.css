@@ -6,6 +6,8 @@ body{
 }
 
 
+
+
 main{
   background-color: rgba(77,197,176,0.5);
   min-width: 100vw;
@@ -114,7 +116,7 @@ main{
 
 
 
-@media (min-width: 576px){
+@media (min-width: 748px){
 
 main{
     background-color: rgba(77,197,176,0.5);

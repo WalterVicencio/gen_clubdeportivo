@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club Deportivo</title>
+    <title>CDNV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
                 <div>
                     <h1>CADETES CLUB DEPORTIVO</h1>
                     <h1>NUEVO PLACILLA</h1>
-                    <a href="#"><img width="30px" src="./assets/img/pelota2.png"><p>INSCRÍBETE AQUÍ</p><img width="30px" src="./assets/img/pelota2.png"></a>
+                    <a href="./inscripcion.php"><img width="30px" src="./assets/img/pelota2.png"><p>INSCRÍBETE AQUÍ</p><img width="30px" src="./assets/img/pelota2.png"></a>
                 </div>
                 <div class="field">
                     <div class="boy"></div>
